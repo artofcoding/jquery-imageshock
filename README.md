@@ -1,4 +1,4 @@
-jquery-imageshock-plugin
-========================
+jquery-imageshock
+=================
 
 Changing Images Shockingly Fast with JavaScript
