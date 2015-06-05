@@ -47,6 +47,14 @@ You need two ``<div>``s in the page,
 
 ## Configuration
 
+You can configure:
+* the directory for the image sets,
+* image extension,
+* the index image,
+* range of image sets which should be used,
+* where to display the counter
+* and the maximum loop counter for calculating a random number which is used to determine which image set is shown next:
+
         var defaultOptions = {
             imageSets: 'imageshock/imagesets',
             fileextension: 'jpg',
@@ -56,3 +64,11 @@ You need two ``<div>``s in the page,
             counterSelector: '#imageshock-counter',
             randMaxLoopCount: 1000
         };
+
+Set these values like this:
+
+        $(document).ready(function() {
+            $('#imageshock-preload').imageshock({
+                fileextension: '.png'
+            });
+        });
