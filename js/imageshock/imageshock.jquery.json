@@ -1,0 +1,35 @@
+{
+    "name": "imageshock",
+    "title": "jQuery ImageShock",
+    "description": "jQuery plugin for changing images shockingly fast.",
+    "keywords": [
+        "image",
+        "animation",
+        "change"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Ralf Bensmann",
+        "url": "https://github.com/artofcoding/jquery-imageshock/blob/1.0.0/AUTHORS.txt"
+    },
+    "maintainers": [
+        {
+            "name": "Ralf Bensmann",
+            "email": "ralf@art-of-coding.eu",
+            "url": "http://www.bensmann.com"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/artofcoding/jquery-imageshock/blob/1.0.0/LICENSE"
+        }
+    ],
+    "bugs": "https://github.com/artofcoding/jquery-imageshock/issues",
+    "homepage": "https://github.com/artofcoding/jquery-imageshock",
+    "docs": "https://github.com/artofcoding/jquery-imageshock",
+    "download": "http://code.jquery.com/#imageshock",
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
